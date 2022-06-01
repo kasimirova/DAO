@@ -93,6 +93,7 @@ contract DAO {
                 emit ProposalFailed(id, "Error in call func");
 
             }
+                    // another option if there's error in call
             // require(result, "Error in call func");
             // emit ProposalFinishedSuccessfully(id);
         }
